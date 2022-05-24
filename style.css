@@ -1,0 +1,61 @@
+
+body{
+    margin: 0;
+}
+
+.navigationBar{
+    text-align:center;
+    position:sticky;
+    top:0;
+    background-color: white;
+}
+
+.navigationBar a{
+    padding-left:30px;
+    font-family:"Rubik";
+}
+.navigationBar a:hover{
+    color:aqua;
+}
+
+
+
+.topBox{
+    height:100px;
+}
+
+.mainImage{
+    height:500px;
+    width:100%;
+    background-image: url('images/adelaide_1.jpg');
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color:white;
+    font-weight:bold;
+    text-align: center;
+    font-size:100px;
+    line-height:400px;
+
+
+}
+
+
+.sectionTitle{
+    height:200px;
+    background-color:black;
+    color:white;
+    text-align:center;
+    line-height: 100px;
+}
+
+.sectionBody{
+    height:500px;
+}
+
+.greyed {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
